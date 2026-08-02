@@ -1,0 +1,97 @@
+# Environment variables
+.env*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env.*
+.venv/
+ENV/
+env/
+
+# Poetry and pipenv
+poetry.lock
+Pipfile.lock
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# Logs and temp files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.dmypy/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local application config
+local_settings.py
+.env
+
+# Distribution
+*.egg
+*.egg-info/
+.eggs/
+
+# C extensions
+*.so
+
+# Deployment
+instance/
+.webassets-cache
+
+# Docker
+docker-compose.override.yml
+
+# Sensitive files
+*.pem
+
+# Temporary files
+*.swp
+*~
+
+# Editor-specific
+*.sublime-project
+*.sublime-workspace
+
+# Pyre type checker
+.pyre/
