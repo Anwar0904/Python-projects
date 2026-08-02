@@ -7,7 +7,13 @@ authors = [
     { name = "Anwar0904", email = "au090469@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "fastapi>=0.141.1",
+    "httpx>=0.28.1",
+    "pydantic-settings>=2.14.2",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.52.1",
+]
 
 [project.scripts]
 ai-chat-api = "ai_chat_api:main"

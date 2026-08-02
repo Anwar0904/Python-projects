@@ -98,3 +98,22 @@ env/
 # Pyre type checker
 .pyre/
 
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+
+# OS
+.DS_Store
