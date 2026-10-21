@@ -1,3 +1,5 @@
+# Day 1 — Think in Python
+
 from collections import Counter
 
 messages = [
